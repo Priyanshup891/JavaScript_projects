@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ffb88f;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 1140px;
+  height: 80vh;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border: 4px solid rgba(239, 239, 239, 0.36);
+  box-sizing: border-box;
+  box-shadow: 0px 40px 40px 10px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(30px);
+  border-radius: 34px;
+  padding: 2rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.left-content h1 {
+  font-family: "Krona One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.left-content h2 {
+  font-family: "Krona One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.left-content_guessing-no {
+  width: 277px;
+  height: 234px;
+  background: #fdb38a;
+  border: 4px solid #ffac7d;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.7rem;
+}
+
+.left-content_guessing-no span {
+  font-family: "Krona One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 160px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.left-content input {
+    font-family: "Krona One", sans-serif;
+  width: 277px;
+  height: 85px;
+  background: #fdb38a;
+  border: 4px solid #ffac7d;
+  box-sizing: border-box;
+  font-size: 50px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.right-content{
+
+width: 100%;
+margin-top: 1rem;
+}
+
+.right-content video{
+    width: 100%;
+    border: 5px solid #fff;
+}
