@@ -75,6 +75,7 @@ document.querySelector(".left-content_guessing-no").style.background =
 "#001629";
 document.querySelector(".left-content_guessing-no span").style.color =
 "rgba(255, 255, 255, 0.5)";
+gif.src = "https://c.tenor.com/xH_Ol0VGE5cAAAAC/su-lee-thinking.gif";
 guessingNumber.textContent = "?"
 result.textContent = "Guess Number between (1 and 20)";
 })
