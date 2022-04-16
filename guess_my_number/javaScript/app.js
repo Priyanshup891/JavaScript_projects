@@ -7,7 +7,7 @@ const result = document.querySelector(".result");
 const score = document.querySelector(".score");
 const highScore = document.querySelector(".highScore");
 
-const secretNumber = Math.floor(Math.random() * 20) + 1;
+let secretNumber = Math.floor(Math.random() * 20) + 1;
 
 let Score = 20;
 let HighScore = 0;
@@ -66,14 +66,21 @@ checkButton.addEventListener("click", () => {
 
 
 againButton.addEventListener('click', () => {
-  const secretNumber = Math.floor(Math.random() * 20) + 1;
-  guessedNumber.value = "";
-  score.textContent = 20;
-  HighScore = Score;
-  highScore.textContent = HighScore;
-  document.querySelector(".left-content_guessing-no").style.background =
-  "#001629";
+  secretNumber = Math.floor(Math.random() * 20) + 1;
+  Score = 20;
+guessedNumber.value = "";
+score.textContent = 20;
+highScore.textContent = HighScore;
+document.querySelector(".left-content_guessing-no").style.background =
+"#001629";
 document.querySelector(".left-content_guessing-no span").style.color =
-  "rgba(255, 255, 255, 0.5)";
-
+"rgba(255, 255, 255, 0.5)";
+guessingNumber.textContent = "?"
+result.textContent = "Guess Number between (1 and 20)";
 })
+
+
+
+
+
+
