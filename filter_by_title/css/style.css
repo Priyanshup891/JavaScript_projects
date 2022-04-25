@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 198, 198);
+}
+
+img{
+    width: 80px;
+}
+
+
+.content{
+    width:100%;
+    max-width: 500px;
+    background-color: #fff;
+    height: 600px;
+    overflow: auto;
+    padding: 2rem 4rem;
+    border-radius: 11px;
+    
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+
+.content input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid rgb(199, 198, 198);
+}
+
+.content input:focus{
+    outline: none;
+    border-color: rgb(167, 167, 167);
+}
+
+.tshirt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    border-bottom:  2px solid rgb(192, 192, 192);
+    margin: 2rem 0;
+
+}
+
+span{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(42, 42, 42);
+}
+
+p{
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    color: rgb(80, 79, 79);
+}
