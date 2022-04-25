@@ -45,6 +45,7 @@ img{
     padding: 0.5rem 1rem;
     border-radius: 20px;
     border: 2px solid rgb(199, 198, 198);
+    font-size: 1rem;
 }
 
 .content input:focus{
